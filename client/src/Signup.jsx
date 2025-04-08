@@ -49,7 +49,7 @@ const Signup = () => {
         setPasswordError('');
       
         axios
-          .post("http://localhost:3001/register", {
+          .post(`${process.env.REACT_APP_BACKEND_URL}/register`, {
             name,
             email,
             password,
