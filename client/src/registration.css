@@ -1,0 +1,120 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1547656834-630c4efa3c19?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGViYXRlfGVufDB8fDB8fHww');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+.registration-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* takes full height */
+    /* light background */
+    padding: 2rem;
+    margin-left: -20em;
+  }
+  
+  .signup-box {
+    
+    padding: 2.5rem 3rem;
+    border-radius: 20px;
+
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .signup-box h2 {
+    color: rgb(248, 119, 21);
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    
+  }
+  
+  .signup-box p {
+    margin-bottom: 1.5rem;
+   color: black
+  }
+  
+  .signup-form {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  .form-group {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .form-group label {
+   color: black;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    
+  
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 50em;
+    padding: 0.7rem 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+    background-color: white;
+    color: black;
+   
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus {
+    border-color: rgb(248, 119, 21);;
+    outline: none;
+  }
+  
+  .submit-btn {
+    background-color: rgb(248, 119, 21);;
+    color: white;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    
+
+        transform: scale(1.05);
+                    box-shadow: 0 8px 16px rgb(22, 21, 21);
+        
+        
+  }
+  
+  .login-text {
+    margin-top: 1.2rem;
+    
+  }
+  
+  .login-link {
+    color: rgb(248, 119, 21);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+    color: rgb(235, 130, 50);
+  }
+  
+
+  

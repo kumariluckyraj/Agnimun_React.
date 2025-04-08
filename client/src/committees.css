@@ -1,0 +1,48 @@
+
+        
+       .body{
+            background-image: url('https://media.istockphoto.com/id/1303053462/photo/abstract-background-with-smooth-waves-in-shades-of-black.jpg?s=612x612&w=0&k=20&c=YxxiBpxWyKWFQisYaGKnmn7M4H7cen1c9WVEO3nqPc8=');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+           
+        }
+        .committees-section {
+            color: white;
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .committee {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .committee img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-right: 20px;
+            margin-top: 4em;
+        }
+
+        .committee h3 {
+            color:rgb(248, 119, 21) ;
+            margin-bottom: 10px;
+        }
+
+        .committee-content {
+          flex-grow: 1;
+        }
+
+        .committee img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgb(248, 119, 21);
+        }
+
+        
