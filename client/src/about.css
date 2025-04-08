@@ -8,8 +8,8 @@
 .team-row {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Allow wrapping to new rows */
-    margin-bottom: 20px; /* Space between rows */
+    flex-wrap: wrap; 
+    margin-bottom: 20px; 
 }
 .team-row p{ color:white;}
 
@@ -26,7 +26,7 @@
     width: 150px;
     height: 150px;
     object-fit: cover;
-    border-radius: 50%; /* Circular images */
+    border-radius: 50%; 
     margin-bottom: 10px;
 }
 

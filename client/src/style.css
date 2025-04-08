@@ -95,16 +95,16 @@
      height: 38em;
     width: 85em;
         background: linear-gradient(to bottom, 
-          #111111, /* Very Dark Gray (almost black) */
-          #222222, /* Dark Gray */
-          #333333, /* Slightly Lighter Dark Gray */
-          #221B15, /* Dark Brown with Black Undertones */
-          #1B130E, /* Deeper Brown with Black Undertones */
-          #000000  /* Black */
+          #111111, 
+          #222222, 
+          #333333, 
+          #221B15, 
+          #1B130E, 
+          #000000  
         );
         background-size: cover;
-        /* Cover the entire viewport height */
-        margin: 0; /* Remove default body margin */
+       
+        margin: 0; 
       
     padding: 4rem 2rem;
     text-align: center;

@@ -106,11 +106,9 @@ height: 55em;
     color: white;
   }
   header nav ul li a:hover {
-    /* Change to your desired hover text color */
-    /* Change to your desired hover background color */
-  /* add padding for better visual */
+  
  color:rgb(248, 119, 21 );
-  /* add border radius for better visual */
+  
  }
 
  .footer{

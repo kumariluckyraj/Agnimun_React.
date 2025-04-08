@@ -35,9 +35,9 @@ const Login = () => {
       setError('Please fill in all fields.');
       return;
     }
-
-    axios.post('http://localhost:3001/login', { email, password })
-      .then(result => {
+    
+    axios.post(`${process.env.REACT_APP_BACKEND_URL}/login`, { email, password })
+        .then(result => {
         console.log(result);
         if (result.data === "Success") {
             navigate('/home', { state: { loggedIn: true } });
