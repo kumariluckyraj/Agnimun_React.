@@ -36,7 +36,7 @@ const Login = () => {
       return;
     }
     
-    axios.post(`${process.env.REACT_APP_BACKEND_URL}/login`, { email, password })
+    axios.post(`https://demo1-1-pqvz.onrender.com/login`, { email, password })
         .then(result => {
         console.log(result);
         if (result.data === "Success") {

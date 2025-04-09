@@ -49,7 +49,7 @@ const Signup = () => {
         setPasswordError('');
       
         axios
-          .post(`${process.env.REACT_APP_BACKEND_URL}/register`, {
+          .post(`https://demo1-1-pqvz.onrender.com/register`, {
             name,
             email,
             password,
