@@ -7,24 +7,17 @@ const EmployeeModel = require("./models/Employee");
 dotenv.config(); // Load env vars
 
 const app = express();
-
+app.use(cors());
 app.use(express.json());
-app.use(
-  cors({
-    origin: process.env.CLIENT_URL, // dynamic from env
-    methods: ["POST", "GET"],
-    credentials: true,
-  })
-);
 
-// Connect to MongoDB using env variable
-mongoose
-  .connect(process.env.MONGO_URI)
+// Connect to MongoDB
+mongoose.connect(process.env.MONGO_URI || "mongodb://localhost:27017/employee")
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.error("MongoDB error:", err));
 
 app.post("/login", (req, res) => {
   const { email, password } = req.body;
+  console.log(email, password);
   EmployeeModel.findOne({ email: email }).then((user) => {
     if (user) {
       if (user.password === password) {
